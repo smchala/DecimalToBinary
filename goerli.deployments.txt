@@ -1,0 +1,1 @@
+0x075bd66b354610c7378218bd7822fe242ee9b04e67800e43438fffe6699152d7:artifacts/abis/converter.json:my_decimal_converter
