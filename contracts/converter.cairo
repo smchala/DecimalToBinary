@@ -18,11 +18,9 @@ func convertDecimalToBinary{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, ra
     decimal_value : felt
 ) -> (binary_array_len : felt, binary_array : felt*):
     alloc_locals
-    let (local inversedArray : felt*) = alloc()
     # Convert decimal to binary, result is an array [LSB, ..., MSB]
     let (len, inversedArray) = convertToBinary(decimal_value)
     # Reversing the above array to the correct order: [MSB, ..., LSB]
-    let (local resultArray : felt*) = alloc()
     let (len, resultArray) = reverse(len, inversedArray)
 
     return (len, resultArray)

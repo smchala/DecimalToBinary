@@ -55,7 +55,7 @@
                 "selector": "0x2c08c9dbbdd0890e300eb5062089b2d4b1c40e3673bbccb5423f7b37dcf9a9c"
             },
             {
-                "offset": "0xe8",
+                "offset": "0xe0",
                 "selector": "0x3f0e383917c8041968ac82bc818de5ad81c5dce86f373a482d4ee16ea5236e0"
             }
         ],
@@ -260,7 +260,7 @@
             "0x48127ff67fff8000",
             "0x208b7fff7fff7ffe",
             "0x40780017fff7fff",
-            "0x2",
+            "0x1",
             "0x1104800180018000",
             "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff40",
             "0x40137fff7fff8000",
@@ -269,17 +269,9 @@
             "0x480a7ffc7fff8000",
             "0x480a7ffd7fff8000",
             "0x1104800180018000",
-            "0x36",
+            "0x2e",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff37",
-            "0x40137fff7fff8001",
-            "0x48127ff87fff8000",
-            "0x48127ff87fff8000",
-            "0x48127ff87fff8000",
-            "0x48127ff87fff8000",
-            "0x48127ff87fff8000",
-            "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff75",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff7d",
             "0x208b7fff7fff7ffe",
             "0x40780017fff7fff",
             "0x3",
@@ -295,7 +287,7 @@
             "0x480a7ffc7fff8000",
             "0x480a7ffb7fff8000",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff22",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff2a",
             "0x480a80017fff8000",
             "0x4829800080008002",
             "0x480a80007fff8000",
@@ -310,7 +302,7 @@
             "0x480280027ffb8000",
             "0x480280007ffd8000",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffcf",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffd7",
             "0x40137ffb7fff8000",
             "0x40137ffc7fff8001",
             "0x48127ffd7fff8000",
@@ -325,7 +317,7 @@
             "0x40780017fff7fff",
             "0x2",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff01",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff09",
             "0x40137fff7fff8000",
             "0x480a7ffa7fff8000",
             "0x480a7ffb7fff8000",
@@ -333,16 +325,16 @@
             "0x480680017fff8000",
             "0x0",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffac",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffb4",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff9d",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffa5",
             "0x40137fff7fff8001",
             "0x48127ffe7fff8000",
             "0x480a7ffd7fff8000",
             "0x480680017fff8000",
             "0x2",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff0b",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff13",
             "0x482a800180008000",
             "0x400080007fff7ffe",
             "0x48127fe67fff8000",
@@ -351,15 +343,15 @@
             "0x4826800180018000",
             "0x1",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff9a",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffa2",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff8b",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff93",
             "0x48127ffe7fff8000",
             "0x48127fd27fff8000",
             "0x480680017fff8000",
             "0x2",
             "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffefa",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff02",
             "0x48327fea80008000",
             "0x400080007fff7ffe",
             "0x48127fe67fff8000",
@@ -368,9 +360,9 @@
             "0x482480017fe68000",
             "0x1",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff89",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff91",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff7a",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff82",
             "0x20680017fff7fd3",
             "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff0",
             "0x480a80007fff8000",
@@ -5633,264 +5625,6 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 46,
-                        "end_line": 25,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "start_col": 39,
-                        "start_line": 25
-                    }
-                },
-                "204": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 35,
-                        "end_line": 25,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "start_col": 10,
-                        "start_line": 25
-                    }
-                },
-                "205": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 41,
-                        "end_line": 31,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 62,
-                                "end_line": 23,
-                                "input_file": {
-                                    "filename": "contracts/converter.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 33,
-                                        "end_line": 23,
-                                        "input_file": {
-                                            "filename": "/Users/samimchala/Documents/projects/my_starknet_libs/DecimalToBinary/libs/starknetarraymanipulation/contracts/array_manipulation.cairo"
-                                        },
-                                        "parent_location": [
-                                            {
-                                                "end_col": 57,
-                                                "end_line": 26,
-                                                "input_file": {
-                                                    "filename": "contracts/converter.cairo"
-                                                },
-                                                "start_col": 30,
-                                                "start_line": 26
-                                            },
-                                            "While trying to retrieve the implicit argument 'syscall_ptr' in:"
-                                        ],
-                                        "start_col": 14,
-                                        "start_line": 23
-                                    },
-                                    "While expanding the reference 'syscall_ptr' in:"
-                                ],
-                                "start_col": 32,
-                                "start_line": 23
-                            },
-                            "While trying to update the implicit return value 'syscall_ptr' in:"
-                        ],
-                        "start_col": 22,
-                        "start_line": 31
-                    }
-                },
-                "206": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 70,
-                        "end_line": 31,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 62,
-                                "end_line": 23,
-                                "input_file": {
-                                    "filename": "contracts/converter.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 62,
-                                        "end_line": 23,
-                                        "input_file": {
-                                            "filename": "/Users/samimchala/Documents/projects/my_starknet_libs/DecimalToBinary/libs/starknetarraymanipulation/contracts/array_manipulation.cairo"
-                                        },
-                                        "parent_location": [
-                                            {
-                                                "end_col": 57,
-                                                "end_line": 26,
-                                                "input_file": {
-                                                    "filename": "contracts/converter.cairo"
-                                                },
-                                                "start_col": 30,
-                                                "start_line": 26
-                                            },
-                                            "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
-                                        ],
-                                        "start_col": 35,
-                                        "start_line": 23
-                                    },
-                                    "While expanding the reference 'pedersen_ptr' in:"
-                                ],
-                                "start_col": 32,
-                                "start_line": 23
-                            },
-                            "While trying to update the implicit return value 'pedersen_ptr' in:"
-                        ],
-                        "start_col": 43,
-                        "start_line": 31
-                    }
-                },
-                "207": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 87,
-                        "end_line": 31,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 62,
-                                "end_line": 23,
-                                "input_file": {
-                                    "filename": "contracts/converter.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 79,
-                                        "end_line": 23,
-                                        "input_file": {
-                                            "filename": "/Users/samimchala/Documents/projects/my_starknet_libs/DecimalToBinary/libs/starknetarraymanipulation/contracts/array_manipulation.cairo"
-                                        },
-                                        "parent_location": [
-                                            {
-                                                "end_col": 57,
-                                                "end_line": 26,
-                                                "input_file": {
-                                                    "filename": "contracts/converter.cairo"
-                                                },
-                                                "start_col": 30,
-                                                "start_line": 26
-                                            },
-                                            "While trying to retrieve the implicit argument 'range_check_ptr' in:"
-                                        ],
-                                        "start_col": 64,
-                                        "start_line": 23
-                                    },
-                                    "While expanding the reference 'range_check_ptr' in:"
-                                ],
-                                "start_col": 32,
-                                "start_line": 23
-                            },
-                            "While trying to update the implicit return value 'range_check_ptr' in:"
-                        ],
-                        "start_col": 72,
-                        "start_line": 31
-                    }
-                },
-                "208": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 13,
-                        "end_line": 23,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 41,
-                                "end_line": 26,
-                                "input_file": {
-                                    "filename": "contracts/converter.cairo"
-                                },
-                                "start_col": 38,
-                                "start_line": 26
-                            },
-                            "While expanding the reference 'len' in:"
-                        ],
-                        "start_col": 10,
-                        "start_line": 23
-                    }
-                },
-                "209": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 28,
-                        "end_line": 23,
-                        "input_file": {
-                            "filename": "contracts/converter.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 56,
-                                "end_line": 26,
-                                "input_file": {
-                                    "filename": "contracts/converter.cairo"
-                                },
-                                "start_col": 43,
-                                "start_line": 26
-                            },
-                            "While expanding the reference 'inversedArray' in:"
-                        ],
-                        "start_col": 15,
-                        "start_line": 23
-                    }
-                },
-                "210": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.convertDecimalToBinary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
                         "end_col": 57,
                         "end_line": 26,
                         "input_file": {
@@ -5900,7 +5634,7 @@
                         "start_line": 26
                     }
                 },
-                "212": {
+                "204": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -5918,7 +5652,7 @@
                         "start_line": 28
                     }
                 },
-                "213": {
+                "205": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -5974,7 +5708,7 @@
                         "start_line": 4
                     }
                 },
-                "215": {
+                "207": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6005,7 +5739,7 @@
                         "start_line": 1
                     }
                 },
-                "216": {
+                "208": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6036,7 +5770,7 @@
                         "start_line": 2
                     }
                 },
-                "217": {
+                "209": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6067,7 +5801,7 @@
                         "start_line": 5
                     }
                 },
-                "219": {
+                "211": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6122,7 +5856,7 @@
                         "start_line": 2
                     }
                 },
-                "221": {
+                "213": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6153,7 +5887,7 @@
                         "start_line": 10
                     }
                 },
-                "222": {
+                "214": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6232,7 +5966,7 @@
                         "start_line": 2
                     }
                 },
-                "224": {
+                "216": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6263,7 +5997,7 @@
                         "start_line": 13
                     }
                 },
-                "225": {
+                "217": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6294,7 +6028,7 @@
                         "start_line": 14
                     }
                 },
-                "226": {
+                "218": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6325,7 +6059,7 @@
                         "start_line": 11
                     }
                 },
-                "228": {
+                "220": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6380,7 +6114,7 @@
                         "start_line": 5
                     }
                 },
-                "229": {
+                "221": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6411,7 +6145,7 @@
                         "start_line": 11
                     }
                 },
-                "230": {
+                "222": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6466,7 +6200,7 @@
                         "start_line": 5
                     }
                 },
-                "231": {
+                "223": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6497,7 +6231,7 @@
                         "start_line": 9
                     }
                 },
-                "232": {
+                "224": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6528,7 +6262,7 @@
                         "start_line": 2
                     }
                 },
-                "234": {
+                "226": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6607,7 +6341,7 @@
                         "start_line": 2
                     }
                 },
-                "236": {
+                "228": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6638,7 +6372,7 @@
                         "start_line": 1
                     }
                 },
-                "237": {
+                "229": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6693,7 +6427,7 @@
                         "start_line": 1
                     }
                 },
-                "238": {
+                "230": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6748,7 +6482,7 @@
                         "start_line": 1
                     }
                 },
-                "239": {
+                "231": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6803,7 +6537,7 @@
                         "start_line": 1
                     }
                 },
-                "240": {
+                "232": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6858,7 +6592,7 @@
                         "start_line": 1
                     }
                 },
-                "241": {
+                "233": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6877,7 +6611,7 @@
                         "start_line": 17
                     }
                 },
-                "243": {
+                "235": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6932,7 +6666,7 @@
                         "start_line": 1
                     }
                 },
-                "244": {
+                "236": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -6987,7 +6721,7 @@
                         "start_line": 1
                     }
                 },
-                "245": {
+                "237": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7042,7 +6776,7 @@
                         "start_line": 1
                     }
                 },
-                "246": {
+                "238": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7073,7 +6807,7 @@
                         "start_line": 2
                     }
                 },
-                "248": {
+                "240": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7152,7 +6886,7 @@
                         "start_line": 1
                     }
                 },
-                "249": {
+                "241": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7231,7 +6965,7 @@
                         "start_line": 1
                     }
                 },
-                "250": {
+                "242": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7286,7 +7020,7 @@
                         "start_line": 2
                     }
                 },
-                "251": {
+                "243": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7341,7 +7075,7 @@
                         "start_line": 2
                     }
                 },
-                "252": {
+                "244": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7396,7 +7130,7 @@
                         "start_line": 2
                     }
                 },
-                "253": {
+                "245": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -7427,7 +7161,7 @@
                         "start_line": 1
                     }
                 },
-                "254": {
+                "246": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7444,7 +7178,7 @@
                         "start_line": 34
                     }
                 },
-                "256": {
+                "248": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7461,7 +7195,7 @@
                         "start_line": 35
                     }
                 },
-                "258": {
+                "250": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7478,7 +7212,7 @@
                         "start_line": 35
                     }
                 },
-                "259": {
+                "251": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7519,7 +7253,7 @@
                         "start_line": 31
                     }
                 },
-                "260": {
+                "252": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7560,7 +7294,7 @@
                         "start_line": 31
                     }
                 },
-                "261": {
+                "253": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7601,7 +7335,7 @@
                         "start_line": 31
                     }
                 },
-                "262": {
+                "254": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7618,7 +7352,7 @@
                         "start_line": 36
                     }
                 },
-                "264": {
+                "256": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7635,7 +7369,7 @@
                         "start_line": 36
                     }
                 },
-                "266": {
+                "258": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7652,7 +7386,7 @@
                         "start_line": 37
                     }
                 },
-                "268": {
+                "260": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7669,7 +7403,7 @@
                         "start_line": 37
                     }
                 },
-                "269": {
+                "261": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7722,7 +7456,7 @@
                         "start_line": 13
                     }
                 },
-                "270": {
+                "262": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7751,7 +7485,7 @@
                         "start_line": 32
                     }
                 },
-                "271": {
+                "263": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7768,7 +7502,7 @@
                         "start_line": 48
                     }
                 },
-                "273": {
+                "265": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7785,7 +7519,7 @@
                         "start_line": 48
                     }
                 },
-                "275": {
+                "267": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7802,7 +7536,7 @@
                         "start_line": 49
                     }
                 },
-                "276": {
+                "268": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7819,7 +7553,7 @@
                         "start_line": 49
                     }
                 },
-                "277": {
+                "269": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7872,7 +7606,7 @@
                         "start_line": 13
                     }
                 },
-                "278": {
+                "270": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7925,7 +7659,7 @@
                         "start_line": 13
                     }
                 },
-                "279": {
+                "271": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7978,7 +7712,7 @@
                         "start_line": 261
                     }
                 },
-                "280": {
+                "272": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -7995,7 +7729,7 @@
                         "start_line": 50
                     }
                 },
-                "282": {
+                "274": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8012,7 +7746,7 @@
                         "start_line": 50
                     }
                 },
-                "284": {
+                "276": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8029,7 +7763,7 @@
                         "start_line": 52
                     }
                 },
-                "286": {
+                "278": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8082,7 +7816,7 @@
                         "start_line": 13
                     }
                 },
-                "287": {
+                "279": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8111,7 +7845,7 @@
                         "start_line": 48
                     }
                 },
-                "288": {
+                "280": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8128,7 +7862,7 @@
                         "start_line": 55
                     }
                 },
-                "290": {
+                "282": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8145,7 +7879,7 @@
                         "start_line": 55
                     }
                 },
-                "292": {
+                "284": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8162,7 +7896,7 @@
                         "start_line": 56
                     }
                 },
-                "293": {
+                "285": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8179,7 +7913,7 @@
                         "start_line": 56
                     }
                 },
-                "294": {
+                "286": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8232,7 +7966,7 @@
                         "start_line": 13
                     }
                 },
-                "295": {
+                "287": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8285,7 +8019,7 @@
                         "start_line": 13
                     }
                 },
-                "296": {
+                "288": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8338,7 +8072,7 @@
                         "start_line": 261
                     }
                 },
-                "297": {
+                "289": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8355,7 +8089,7 @@
                         "start_line": 57
                     }
                 },
-                "299": {
+                "291": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8372,7 +8106,7 @@
                         "start_line": 57
                     }
                 },
-                "301": {
+                "293": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8389,7 +8123,7 @@
                         "start_line": 58
                     }
                 },
-                "303": {
+                "295": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8406,7 +8140,7 @@
                         "start_line": 60
                     }
                 },
-                "305": {
+                "297": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8435,7 +8169,7 @@
                         "start_line": 35
                     }
                 },
-                "306": {
+                "298": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.convertToBinary"
@@ -8616,7 +8350,7 @@
                     }
                 }
             ],
-            "213": [
+            "205": [
                 {
                     "accessible_scopes": [
                         "__main__",
@@ -8687,11 +8421,11 @@
             },
             "__main__.convertDecimalToBinary.SIZEOF_LOCALS": {
                 "type": "const",
-                "value": 2
+                "value": 1
             },
             "__main__.convertToBinary": {
                 "decorators": [],
-                "pc": 254,
+                "pc": 246,
                 "type": "function"
             },
             "__main__.convertToBinary.Args": {
@@ -8733,7 +8467,7 @@
                 "value": 2
             },
             "__main__.convertToBinary.loop": {
-                "pc": 286,
+                "pc": 278,
                 "type": "label"
             },
             "__main__.decimal_conversion_index": {
@@ -8906,7 +8640,7 @@
                 "decorators": [
                     "view"
                 ],
-                "pc": 232,
+                "pc": 224,
                 "type": "function"
             },
             "__wrappers__.convertDecimalToBinary.Args": {
@@ -8935,7 +8669,7 @@
             },
             "__wrappers__.convertDecimalToBinary_encode_return": {
                 "decorators": [],
-                "pc": 213,
+                "pc": 205,
                 "type": "function"
             },
             "__wrappers__.convertDecimalToBinary_encode_return.Args": {
