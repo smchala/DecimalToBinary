@@ -7,8 +7,8 @@ The result of that conversion is an array containing [LSB, ..., MSB]
 
 An array inversion is performed to end up with a binary in the correct order [MSB, ..., LSB]
 
-Have a go on voyager: 
-[0x075bd66b354610c7378218bd7822fe242ee9b04e67800e43438fffe6699152d7](https://goerli.voyager.online/contract/0x075bd66b354610c7378218bd7822fe242ee9b04e67800e43438fffe6699152d7#readContract)
+Have a go on voyager (alpha-goerli): 
+[0x07631742288124b486710c35c94db95b03d66976f38a820b101139ed53131b74](https://goerli.voyager.online/contract/0x07631742288124b486710c35c94db95b03d66976f38a820b101139ed53131b74#readContract)
 
 Thanks to the [cairo math lib](https://github.com/starkware-libs/cairo-lang) for the division and [gaetbout/starknet-array-manipulation](https://github.com/gaetbout/starknet-array-manipulation) for the array manipulation!
 

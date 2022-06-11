@@ -10,13 +10,14 @@ nile compile
 nile deploy converter --alias my_decimal_converter --network goerli
 
 🚀 Deploying converter
-⏳ ️Deployment of converter successfully sent at 0x075bd66b354610c7378218bd7822fe242ee9b04e67800e43438fffe6699152d7
-🧾 Transaction hash: 0x2a56d4877a23745497aaeb1af8abe3595a9d443b40e9b72db077e18c387060a
+⏳ ️Deployment of converter successfully sent at 0x07631742288124b486710c35c94db95b03d66976f38a820b101139ed53131b74
+🧾 Transaction hash: 0xe86e8ccee386517a832f5cfd3117c94c947eed44945d61d154200fc83edac4
 📦 Registering deployment as my_decimal_converter in goerli.deployments.txt
 
 
 
-nile debug 0x2a56d4877a23745497aaeb1af8abe3595a9d443b40e9b72db077e18c387060a --network goerli
+nile debug 0xe86e8ccee386517a832f5cfd3117c94c947eed44945d61d154200fc83edac4 --network goerli
 
 ⏳ Querying the network to check transaction status and identify contracts...
+🕒 Transaction status: RECEIVED. Trying again in a moment...
 ✅ Transaction status: ACCEPTED_ON_L2. No error in transaction.
